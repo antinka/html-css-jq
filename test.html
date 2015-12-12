@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+      <title>test</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	   <link rel="stylesheet" href="style_hw.css" />
+	   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	   <script src="testscript.js"></script>
+ </head>
+ <body>
+   <header class="bk">
+			<img src="webLogo.png" alt="Изображение" height="100" class="imglogo"  />
+			<h1> Основы Web-технологий </h1>
+			<nav>
+				<ul class="mainmenu">
+					<li><a href="index.html">Главная</a></li>
+					<li class="vsp"><a href="texnologies.html">Web технологии</a>
+						<ul style="list-style-type: none;" class="dropdown-menu">
+						<li><a href="html5.html">HTML5</a></li>
+						<li><a href="css3.html">CSS3</a></li>
+						<li><a href="javaScript.html#">JavaScript</a></li>
+						</ul>
+					</li>
+					<li><a href="calculator.html">Калькултор</a></li>
+					<li><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+   </header>
+   <section class="bk">
+	 <form name="kv" action="http://www.example.com"  >
+		Какой тег предназначен для создания ссылок:<br />
+		<input type="radio" name="kv1" value="a" />&#8249;a&#8250;<br />
+		<input type="radio" name="kv1" value="a /" />&#8249;a /&#8250;<br />
+		<input type="radio" name="kv1" value="ref" />&#8249;ref&#8250;<br />
+		<input type="radio" name="kv1" value="ref /"  />&#8249;ref /&#8250;<br />
+
+		Какой тег предназначен для создания нумерованного списка:<br />
+		<input type="radio" name="kv2" value="li" />&#8249;li&#8250;<br />
+		<input type="radio" name="kv2" value="dl" />&#8249;dl&#8250;<br />
+		<input type="radio" name="kv2" value="ol" />&#8249;ol&#8250;<br />
+		<input type="radio" name="kv2" value="ul" />&#8249;ul&#8250;<br />
+	
+		Какой тег предназначен для передачи служебной информации браузеру:<br />
+		<input type="radio" name="kv3" value="info" />&#8249;info&#8250;<br />		
+		<input type="radio" name="kv3" value="info /" />&#8249;info /&#8250;<br />		
+		<input type="radio" name="kv3" value="meta" />&#8249;meta&#8250;<br />	
+		<input type="radio" name="kv3" value="meta /" />&#8249;meta /&#8250;<br />	
+
+		Какие теги используются при создании таблицы:<br />
+		<input type="checkbox" name="kv4" value="bodyt" />&#8249;bodyt&#8250;<br />		
+		<input type="checkbox" name="kv4" value="td" />&#8249;td&#8250;<br />	
+		<input type="checkbox" name="kv4" value="groupcol" />&#8249;groupcol&#8250;<br />	
+		<input type="checkbox" name="kv4" value="col /" />&#8249;col /&#8250;<br />	
+	
+		Какие атрибуты используются при создании форм:<br />
+		<input type="checkbox" name="kv5" value="autocomplete" />autocomplete<br />
+		<input type="checkbox" name="kv5" value="action" />action<br />
+		<input type="checkbox" name="kv5" value="charset" />charset<br />
+		<input type="checkbox" name="kv5" value="validate" />validate<br />
+	  </form>
+	  <p><input type="button" name="RES" onclick="CallFRes()" value="Результат" /></p>
+	</section>
+	<footer class="bk">
+		<address>
+			<a href="mailto:antinka@gmail.com">Пишите: antinka@gmail.com</a><br />
+		</address>
+		&#169; Антонова Е.С.,2015год
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Калькултор</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	   <link rel="stylesheet" href="style_hw.css" />
+	   	   <script src="MyCalculator.js"></script>
+		    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   </head>
+   <body>
+			<header class="bk">
+			<img src="webLogo.png" alt="Изображение" height="100" class="imglogo"  />
+			<h1> Основы Web-технологий </h1>
+			<nav>
+				<ul class="mainmenu">
+					<li><a href="index.html">Главная</a></li>
+					<li class="vsp"><a href="texnologies.html">Web технологии</a>
+						<ul class="dropdown-menu">
+						<li><a href="html5.html">HTML5</a></li>
+						<li><a href="css3.html">CSS3</a></li>
+						<li><a href="javaScript.html#">JavaScript</a></li>
+						</ul>
+					</li>
+					<li><a href="calculator.html">Калькултор</a></li>
+					<li><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+		</header>
+		<form name="calcul" action="http://www.example.com" class="bk">
+		<table border="1">
+			<tr>
+				<td colspan="5"><input type="text" name="res" value="" class="res" /></td>
+			</tr>
+			<tr>
+				<td> <input type="button" name=" 7 " onclick="EnterNumber(7)" value="7" class="butnorm" /></td>
+				<td> <input type="button" name=" 8 " onclick="EnterNumber(8)" value="8" class="butnorm" /></td>
+				<td> <input type="button" name=" 9 " onclick="EnterNumber(9)" value="9" class="butnorm" /></td>
+				<td> <input type="button" name=" / " onclick="CallOperration('/')" value="/" class="butnorm" /></td>
+				<td> <input type="button" name=" C " onclick="Clear()" value="C"class="butnorm"  /></td>
+			</tr>
+			<tr>
+				<td> <input type="button" name=" 4 " onclick="EnterNumber(4)" value="4" class="butnorm" /></td>
+				<td> <input type="button" name=" 5 " onclick="EnterNumber(5)" value="5" class="butnorm" /></td>
+				<td> <input type="button" name=" 6 " onclick="EnterNumber(6)" value="6" class="butnorm" /></td>
+				<td> <input type="button" name=" * " onclick="CallOperration('*')" value="*" class="butnorm"  /></td>
+				<td> <input type="button" name= &#177; onclick="PlusMinus()" value=&#177; class="butnorm" /></td>
+			</tr>
+			<tr>
+				<td> <input type="button" name=" 1 " onclick="EnterNumber(1)" value="1"class="butnorm"  /></td>
+				<td> <input type="button" name=" 2 " onclick="EnterNumber(2)" value="2"class="butnorm"  /></td>
+				<td> <input type="button" name=" 3 " onclick="EnterNumber(3)" value="3" class="butnorm" /></td>
+				<td> <input type="button" name=" - " onclick="CallOperration('-')" value="-" class="butnorm" /></td>
+				<td rowspan="2"><input type="button" name=" = " onclick="CallOperration('=')" value="=" class="butnhight"  /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" name="0" onclick="EnterNumber(0)" value="0"class="butnorm" /></td>
+				<td> <input type="button" name=" . " onclick="Decimal()" value="." class="butnorm" /></td>
+				<td> <input type="button" name=" + " onclick="CallOperration('+')" value="+" class="butnorm" /></td>
+			</tr>
+		</table>
+		</form>
+		<footer class="bk">
+			<address>
+			<a href="mailto:antinka@gmail.com">Пишите: antinka@gmail.com</a><br />
+			</address>
+			&#169; Антонова Е.С.,2015год
+		</footer>
+	</body>
+</html>
